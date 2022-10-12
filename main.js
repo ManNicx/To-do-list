@@ -1,24 +1,25 @@
 
-
-
-
-
-
-function add() {
+//___________________________________________//
+//Function Clone
+$(document).ready(function(){
+   //jquery code
+    $("#add").click(function () {
+     $("#area").clone().appendTo ("#wrapper") 
+    });
+ //Function Delete
+    $("#remove").click(function () {
+     $("#area:last").remove() 
+    });
     
-const node = document.getElementById("tables");
-const clone = node.cloneNode(true);
-document.body.appendChild(clone);
-}
+    
+    });
 
 
-function remove() {
-    const list = document.getElementById("hollow");
- list.removeChild(list.lastElementChild);
-  
- if(hollow==="0") {
-     
- }
-}
+//------------------------------------------//
+
+
+
+
+
 
 
