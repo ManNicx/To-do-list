@@ -83,7 +83,7 @@ select{
     background:#ede6b9;
 }
 #hollow{
-    background: red;
+    
     
 }
 
@@ -91,4 +91,7 @@ footer{
     margin-top:300px;
    
     padding-left:0px;
+}
+button{
+ background: #a7beae;
 }
