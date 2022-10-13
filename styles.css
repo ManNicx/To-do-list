@@ -60,7 +60,7 @@ textarea{
 }
 #area{
    border:1.5px solid black; 
-  
+    background:#829079;
    width: 400px;
    border-bottom-radius:10px;
    display:flex;
