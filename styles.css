@@ -6,7 +6,7 @@
    
    body{
        margin-left:50px;
-       
+       background:#b9925e;
    }
    
 .container{
@@ -26,7 +26,7 @@
 #area{
   display:flex;
     flex-direction:row;    
-    background-color:red;
+    
 }
 
 #atable{
@@ -36,10 +36,12 @@
 .wrapper{
     margin-top:100px;
     
-    background:red  ;
+    background:#ede6b9  ;
     border:2px solid black;
     width: 400px;
-    position:center;
+    position:absolute;
+    top:30%;
+    left:30%;
     
    border-radius:10px;
    border-bottom-radius:0px; 
@@ -50,7 +52,7 @@
 }
 
 textarea{
-      background:#1100ff;
+      background:#829079;
 }
 #sel{
   margin-bottom:2px;
@@ -58,7 +60,7 @@ textarea{
 }
 #area{
    border:1.5px solid black; 
-  background: white;
+  
    width: 400px;
    border-bottom-radius:10px;
    display:flex;
@@ -78,11 +80,11 @@ textarea{
 }
 
 select{
-    background:#1100ff;
+    background:#ede6b9;
 }
 #hollow{
     background: red;
-    color: red;
+    
 }
 
 footer{
